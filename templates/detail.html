@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Title</title>
+</head>
+<body>
+<br>{{book.title}}<br/>
+<br>{{book.author.name}}<br/>
+<br>{{book.description}}<br/>
+<br>{{book.publication_year}}<br/>
+<br>{{book.file}}<br/>
+</body>
+</html>
